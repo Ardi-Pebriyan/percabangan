@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="nama">
+    <p onmouseenter="ubah()" id="teks">ubah</p>
+    <script>
+        // DOM = Document Object Model
+        function ubah() {
+            let nama = document.getElementById("nama");
+            nama.style.backgroundColor = "red";
+
+            let teks = document.getElementById("teks");
+            teks.style.color = "green";
+            teks.innerHTML = "berhasil di ubah";
+        }
+    </script>
+</body>
+</html>
