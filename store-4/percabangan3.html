@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nama1 = prompt("masukkan nama anda");
+        let nama2 = prompt("masukkan nama dia");
+        if(nama1 === "aku" && nama2 === "kamu"){
+            document.write(`${nama1} dan ${nama2} adalah keluarga`);
+        } else if(nama1 === "aku" && nama2 === "dia"){
+            document.write(`${nama1} dan ${nama2} adalah teman`);
+        } else if(nama1 === "" || nama2 === ""){
+            document.write(`ada yang salah pada hubungannya`);
+        } else {
+            document.write(` lau siape mpruy`);
+        }
+    </script>
+</body>
+</html>
